@@ -7,7 +7,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface ApiInterface {
-    @GET("everything")
+    @GET("top-headlines")
     Call<News> getNews(
 
             @Query("country") String country,
